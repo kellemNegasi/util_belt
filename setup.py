@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="util_belt", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="kellem negasi",
     author_email="kellemnegasi@gmail.com",
     description="A package of differnt utilities",
