@@ -13,9 +13,3 @@ def list_from_txt(file_src):
     with open(file_src, 'r') as filehandle:
         list_ = [current_place.rstrip() for current_place in filehandle.readlines()]
     return list_
-
-list_ = [2,3,5,6]
-
-# list_to_txt(list_)
-second = list_from_txt('list.txt')
-print(list_, second)
