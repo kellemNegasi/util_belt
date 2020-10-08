@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: util-belt
-Version: 0.0.2
+Version: 0.0.4
 Summary: A package of differnt utilities
 Home-page: https://github.com/kellemNegasi/util_belt
 Author: kellem negasi
 Author-email: kellemnegasi@gmail.com
 License: UNKNOWN
-Description: ## utility belg
+Description: ## utility belt
         This is a utility package for convenient and easy use.
         It contains different utility functions.
 Platform: UNKNOWN

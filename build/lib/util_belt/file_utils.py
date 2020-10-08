@@ -8,7 +8,14 @@ def list_to_txt(list_object,file_dest='./list.txt'):
         print(f'written a list of length {len(list_object)} to {file_dest}')
 
 def list_from_txt(file_src):
-    places = []
+    list_ = []
     # open file and read the content in a list
     with open(file_src, 'r') as filehandle:
-        places = [current_place.rstrip() for current_place in filehandle.readlines()]
+        list_ = [current_place.rstrip() for current_place in filehandle.readlines()]
+    return list_
+
+list_ = [2,3,5,6]
+
+# list_to_txt(list_)
+second = list_from_txt('list.txt')
+print(list_, second)
