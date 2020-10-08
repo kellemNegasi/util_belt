@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: util-belt
+Version: 0.0.1
+Summary: A package of differnt utilities
+Home-page: https://github.com/kellemNegasi/util_belt
+Author: kellem negasi
+Author-email: kellemnegasi@gmail.com
+License: UNKNOWN
+Description: ## utility beil
+        This is a utility package for convenient and easy use
+        it contains different simple utility modules
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
