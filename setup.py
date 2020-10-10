@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="util_belt", # Replace with your own username
-    version="0.0.6",
+    version="0.0.7",
     author="kellem negasi",
     author_email="kellemnegasi@gmail.com",
     description="A package of differnt utilities",

@@ -13,13 +13,14 @@ to install it use ``` pip install util-belt ``` and `pip` will install the lates
    list_to_txt(my_list , file_dest = './list.txt')
 
    ```
-   `file_dest` parameter is the file path where the list should be saved at። </br>
+   `file_dest` parameter is the file path where the list should be saved at. </br>
    By default it is  the current directory and the file name is `list.txt` <br>
    you can change that to any file path you want. the funtion will save your list <br>
-   to a file with out worrying about details in file handling.
+   to a file with out worrying about details in file handling.<br>
+
    **Currently this library can only save simple lists or 1D lists**
 2. file from list</br>
-   to get a list saved in a txt file use ``` list_from_txt ``` function in the ``` file_utils `` module <br/>
+   to get a list saved in a txt file use ``` list_from_txt ``` function in the ``` file_utils ``` module <br/>
 
    #### Example
    ```
@@ -29,4 +30,6 @@ to install it use ``` pip install util-belt ``` and `pip` will install the lates
 
    ```
 **Currently this library can only save and retrieve simple lists or 1D lists.<br/> it will inlude more flexiblity and functionalities in the next update** <br/>
+
+
 if there is any issue or but report https://github.com/kellemNegasi/util_belt
