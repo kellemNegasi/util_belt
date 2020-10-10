@@ -2,7 +2,7 @@ from termcolor import colored
 import numpy as np
 colors = ['blue','red', 'cyan','green', 'yellow', 'magenta', 'cyan', 'white','grey',]
 color = ''
-def print_arra(arr,colorify= False,axis=0):
+def pretty_array(arr,colorify= False,axis=0):
     if len(arr.shape)==2:
         arr=arr.reshape(1,arr.shape[0],arr.shape[1])
     elif len(arr.shape)==1:
