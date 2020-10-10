@@ -63,20 +63,20 @@ to install it use ``` pip install util-belt ``` and `pip` will install the lates
   / 9 6 1 6 2 5 8 8 4 9 5 2 /
  / 7 2 8 2 7 7 3 4 3 1 0 9 /
 </pre>
-The origin or the `[0][0][0]` in this display start from the bottom left corner.<br/>
-Then the first axis increases horizentaly to the right.<br>
-The second axis increase away from the origin point along the diagonal line<br>
-the third axis increase from bottom to top in (like a Z axis in typical 3D cartesian plane)<br/>
+The origin or the `[0][0][0]` in this display starts from the bottom left corner.<br/>
+Then the first axis (height) increases from bottom to top (like a Z axis in typical 3D cartesian plane)<br/>
+The second axis (rows) increases away from the origin point along the diagonal line<br>
+The third axis (columns) increases horizentaly to the right.<br>
 This can be shown in the diagram below<br>
 <pre>
-Z
+first axis
 
-|    Y
+|    second axis
 |   /
 |  /
 | /
-|/_________ X
+|/_________ third axis
 
 </pre>
 
-   if there is any issue or bug report https://github.com/kellemNegasi/util_belt
+   if there is any issue,a bug or recommendation report on  https://github.com/kellemNegasi/util_belt
